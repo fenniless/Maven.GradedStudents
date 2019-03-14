@@ -32,7 +32,7 @@ public class Classroom {
 
     public void removeStudent(String firstName, String lastName){
         for (Student s: students) {
-            if(firstName.equals(student.name)&&lastName.equals(student.lastName)){
+            if(firstName.equals(s.name)&&lastName.equals(s.lastName)){
                 students.remove(s);
             }
         }
